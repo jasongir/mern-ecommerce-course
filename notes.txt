@@ -1,0 +1,20 @@
+setting up backend:
+- have our dependencies outside of backend and frontend folders
+- install express
+- nodemon i -D nodemon concurrently    # dev dependendencies
+
+- add these scripts
+      "server": "nodemon backend/server",
+      "client": "npm start --prefix frontend"
+   - these can run one at a time
+- run both at the same time:
+      "dev": "concurrently \"npm run server\" \"npm run client\""
+install dotenv
+- initialize in server.js
+
+- when you are in development with a backend server, 
+   use proxy in package.json
+
+   	"proxy": "http://127.0.0.1:5000",
+
+
