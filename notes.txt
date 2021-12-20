@@ -11,6 +11,7 @@ setting up backend:
       "dev": "concurrently \"npm run server\" \"npm run client\""
 install dotenv
 - initialize in server.js
+**REMINDER: keep .env in .gitignore
 
 - when you are in development with a backend server, 
    use proxy in package.json
