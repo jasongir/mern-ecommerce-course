@@ -13,6 +13,12 @@ install dotenv
 - initialize in server.js
 **REMINDER: keep .env in .gitignore
 
+MONGODB SETUP:
+- probably just watch https://learning.oreilly.com/videos/mern-e-commerce-from/9781801077545/9781801077545-video4_1/
+- create database, in clusters make a new collection
+- copy string for compass (program files/...) 
+   and for application (in .env) 
+
 - when you are in development with a backend server, 
    use proxy in package.json
 
